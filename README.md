@@ -165,9 +165,6 @@ spring.devtools.livereload.enabled=true
 - If you encounter errors while running the application, make sure the required dependencies are installed and up to date.
 - If the H2 console is not accessible, verify the `spring.h2.console.enabled` property in `application.properties`.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -178,10 +175,10 @@ Feel free to fork this repository and make your own contributions. Please follow
 For any issues or questions, please contact me at:
 
 - **GitHub:** [muhammadumarrasheed](https://github.com/muhammadumarrasheed)
-- **portfolio:** muhammadumarsipra.com
+- **portfolio:** [muhammadumarsipra.com](https://muhammadumarsipra.com/)
 
 ---
 
-**Developed with 💻 by Muhammad Umar Rasheed**
+**Developed with 💻 by [Muhammad Umar Rasheed](https://muhammadumarsipra.com/)**
 
-![Uploading image.png…]()
+![Uploading image.png…](https://avatars.githubusercontent.com/u/109956803?v=4)
