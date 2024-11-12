@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Manage Reservations</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-dark text-white">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/admin/index.html">Admin Dashboard</a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/admin/tours.html">Manage Tours</a></li>
+            <li class="nav-item"><a class="nav-link" href="/admin/reservations.html">Manage Reservations</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h2>Manage Reservations</h2>
+
+    <!-- Search Reservation by Guest Reference -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <input type="text" id="searchReference" class="form-control me-2" placeholder="Enter Guest Reference">
+        <button id="searchBtn" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+    </div>
+
+    <!-- Button to Load All Reservations -->
+    <button id="loadAllBtn" class="btn btn-secondary mb-3"><i class="fas fa-list"></i> Load All Reservations</button>
+
+    <!-- Reservations List -->
+    <ul id="reservationList" class="list-group"></ul>
+</div>
+
+<!-- Cancel Reservation Modal -->
+<div class="modal fade" id="cancelReservationModal" tabindex="-1" aria-labelledby="cancelReservationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cancelReservationModalLabel" style="color: #333;">Cancel Reservation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p style="color: #333;">Are you sure you want to cancel this reservation?</p>
+                <input type="hidden" id="cancelReservationId">
+                <button id="confirmCancelBtn" class="btn btn-danger">Yes, Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/admin/reservation.js"></script>
+</body>
+</html>

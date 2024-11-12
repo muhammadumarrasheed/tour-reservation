@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1528127269322-539801943592?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG91cnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center/cover;
+    height: 90vh;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 1px solid #444;
+}
+
+.list-group-item {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.modal-content {
+    background-color: #222;
+}
+
