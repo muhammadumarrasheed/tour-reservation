@@ -178,7 +178,7 @@ Feel free to fork this repository and make your own contributions. Please follow
 For any issues or questions, please contact me at:
 
 - **GitHub:** [muhammadumarrasheed](https://github.com/muhammadumarrasheed)
-- **Email:** your-email@example.com
+- **portfolio:** muhammadumarsipra.com
 
 ---
 
